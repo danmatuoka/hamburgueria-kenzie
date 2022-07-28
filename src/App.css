@@ -1,0 +1,30 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.textSearch {
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 34px;
+  padding: 10px;
+}
+
+.textSearchProduct {
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 34px;
+  color: var(--grey-50);
+}
+
+@media screen and (min-width: 900px) {
+  .containerGeneral {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .textSearch {
+    margin-left: 90px;
+  }
+}
