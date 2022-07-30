@@ -1,9 +1,9 @@
 import toast, { Toaster } from "react-hot-toast";
 import { useEffect, useState } from "react";
 import GlobalStyle from "./styles/global";
-import Header from "./Header";
-import ProductList from "./ProductsList";
-import Cart from "./Cart";
+import Header from "./Components/Header";
+import ProductList from "./Components/ProductsList";
+import Cart from "./Components/Cart";
 import "./App.css";
 
 function App() {

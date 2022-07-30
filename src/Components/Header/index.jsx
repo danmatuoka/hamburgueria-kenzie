@@ -1,5 +1,5 @@
 import { DivHeader } from "./styles";
-import logo from "../Assets/logo.svg";
+import logo from "../../Assets/logo.svg";
 import { useState } from "react";
 
 const Header = ({ showProducts, input, setInput }) => {
